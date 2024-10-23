@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualités</title>
+</head>
+<header class="nav_bar">
+    <nav class="nav_item">
+        <img src="images/logo.png" alt="mon logo">
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="a props.html">A propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="">Actualité</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+        <h1>Actualités</h1>
+        <div class="cards">
+            <div class="img">
+                <img src="images/cle_a_molette.png" alt="Clé à molette" width="250"/>
+            </div>
+            <div class="infos">
+                <h2>Nouveau service</h2>
+                <p>Logoden biniou degemer mat, an. Mouezh degas ali ennañ, Plouezoc’h. Hor eizhvet toenn koulz, ker. Din war harzhal feiz, Sarzhav. Tevel drezi geot chom, digempenn. Beajour bemdez tost ha, Sun. Hed stêr pignat hennezh, kanañ.</p>
+                <p>Fait le 31/05/2023 à 22h</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="img">
+                <img src="images/personne.png" alt="Clé à molette" width="250"/>
+            </div>
+            <div class="infos">
+                <h2>Nouvel employé</h2>
+                <p>Logoden biniou degemer mat, an. Mouezh degas ali ennañ, Plouezoc’h. Hor eizhvet toenn koulz, ker. Din war harzhal feiz, Sarzhav. Tevel drezi geot chom, digempenn. Beajour bemdez tost ha, Sun. Hed stêr pignat hennezh, kanañ.</p>
+                <p>Fait le 31/05/2023 à 22h</p>
+            </div>
+        </div>
+</body>
+<footer>
+    <p>  Tout Droit réservés à © CDA TECH </p>
+</footer>
+</html>
+
+<style>
+    @font-face {
+        font-family: "Poppins";
+        src: url("polices/Poppins-Light.ttf");
+    }
+
+    body, html {
+        font-family: "Poppins";
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    .cards {
+        background-color: rgb(169, 189, 214);
+        box-shadow: 0px 0px 5px 1px #00000093;
+        border-radius: 12px;
+        width: 50%;
+        padding: 30px;
+        margin-left: 23%;
+        display: inline-flex;
+        margin-bottom: 38px;
+    }
+    
+    img {
+        border-radius: 12px;
+        margin-top: 8px;
+    }
+
+    .infos {
+        margin-left: 38px;
+        margin-top: -24px;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /*------------- header----------------------*/
+    .nav_bar{
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    .nav_item{
+        min-height: 10vh;
+        display: flex;
+        padding: 8px 8px 8px 100px;
+    
+    }
+    .nav_item ul{
+        width: 70%;
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .nav_item ul li{
+        list-style-type: none;
+    }
+    .nav_item ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: poppins;
+        font-size: 15px;
+    }
+    .nav_item img{
+        width: 150px;
+    }
+
+    /*------------------------- fin header --------------------*/
+    .carousel-item{
+        height: 89vh;
+        background-image: cover;
+    }
+    .carousel-item > .carousel-caption{
+        padding-bottom: 300px;
+    }
+    .carousel-caption h1{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+    .carousel-caption .btn{
+        background-color: #D8AA45;
+        color: white;
+        border: #D8AA45;
+    }
+    /*----------------------------section-------------------*/
+    section{
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+    section img{
+        width: 350px;
+    }
+    section .container{
+        width: 70%;
+    }
+    section h1{
+        margin-bottom: 100px;
+    }
+    /*----------------- Footer ----------------------------*/
+    footer{
+        height: 50px;
+        background-color: #271ECC;
+        text-align: center;
+        align-items: center;
+        color: #D8AA45;
+    }
+    footer p{
+        padding-top: 12px;
+    }
+</style>
